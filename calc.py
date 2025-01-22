@@ -61,9 +61,9 @@ if __name__ == '__main__':
     
     print ('Welcome in my first calculation')
     # print ('1= Addition \n 2= Soustraction \n 3=Multiplication \n 4= Division'  ) 
-    choose = input ('Enter a your operation ' )
-    number_one=int(input ('Enter a number'))
-    number_two=int (input('Enter a number '))
+    choose = input ('Enter a your operation: ' )
+    number_one=int(input ('Enter a number:'))
+    number_two=int (input('Enter a number: '))
     if (choose)=='+':
         print (number_one+number_two)
     if (choose)=='-':
